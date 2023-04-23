@@ -8,5 +8,5 @@ export default function setupRouter(app: App) {
     routes,
   })
   app.use(router)
-  return router.isReady
+  return router.isReady()
 }
