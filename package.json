@@ -26,7 +26,6 @@
     "eslint": "^8.37.0",
     "jsdom": "^21.1.1",
     "lint-staged": "^13.2.0",
-    "pnpm": "^8.1.0",
     "simple-git-hooks": "^2.8.1",
     "taze": "^0.9.1",
     "typescript": "^5.0.2",
