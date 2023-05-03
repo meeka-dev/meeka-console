@@ -413,16 +413,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/carbon@npm:^1.1.16":
-  version: 1.1.16
-  resolution: "@iconify-json/carbon@npm:1.1.16"
-  dependencies:
-    "@iconify/types": "*"
-  checksum: 7ca173d6ee9dd44d30382b089e1886605c5c603811daba6ba57c1e5fa3b8524934a0c8941f33cf8d1db661430c7b3933e4ac1c50f6bd24b75e20b7d00d25673c
-  languageName: node
-  linkType: hard
-
-"@iconify/types@npm:*, @iconify/types@npm:^2.0.0":
+"@iconify/types@npm:^2.0.0":
   version: 2.0.0
   resolution: "@iconify/types@npm:2.0.0"
   checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
@@ -5778,18 +5769,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pnpm@npm:^8.1.0":
-  version: 8.1.1
-  resolution: "pnpm@npm:8.1.1"
-  dependencies:
-    node-gyp: latest
-  bin:
-    pnpm: bin/pnpm.cjs
-    pnpx: bin/pnpx.cjs
-  checksum: 33ab094dd384ae8c48c3d78746dcee637ee2022e18ac4657cfa3938aed749be427fd8bbdacc7ab9f09aecb5c7dbbd8c43da456f145cf29ad0f2aa6b8c5fc6d9b
-  languageName: node
-  linkType: hard
-
 "postcss-selector-parser@npm:^6.0.9":
   version: 6.0.11
   resolution: "postcss-selector-parser@npm:6.0.11"
@@ -6147,7 +6126,6 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@antfu/eslint-config": ^0.38.2
-    "@iconify-json/carbon": ^1.1.16
     "@types/node": ^18.15.11
     "@unocss/reset": ^0.50.6
     "@vitejs/plugin-vue": ^4.1.0
@@ -6157,7 +6135,6 @@ __metadata:
     eslint: ^8.37.0
     jsdom: ^21.1.1
     lint-staged: ^13.2.0
-    pnpm: ^8.1.0
     simple-git-hooks: ^2.8.1
     taze: ^0.9.1
     typescript: ^5.0.2
